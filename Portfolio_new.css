@@ -218,7 +218,54 @@ a:hover{
     opacity: 0.9;
     border-radius: 10px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
+
 }
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+.btn-min-block {
+    min-width: 220px;
+    line-height: 48px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: red;
+    border: 2px solid red;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    transition: 0.3s ease;
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+.a{
+    color: white;
+    margin-left: 15%;
+}
+.c{
+    margin-top: 13%;
+    margin-left: 15%;
+}
+.b{
+    top: 30;
+}
+.b .btn{
+    margin-top: 6%;
+}
+.a .btn{
+    margin-top: 2%;
+}
+
+
 .p-1{
     margin-left: 6%;
     margin-right: 6%;
@@ -266,6 +313,7 @@ a:hover{
     margin-bottom: 8%;
     background-color: #fcfcfc;
 }
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -279,7 +327,7 @@ a:hover{
   flex-direction: column;
   position: fixed;
   right: 0.2%;
-  bottom: 40%;
+  bottom: 50%;
 }
 
 .socicon {
